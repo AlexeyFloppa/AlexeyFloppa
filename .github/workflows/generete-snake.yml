@@ -26,10 +26,11 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif
 
-      - name: Clone output branch
+      - name: Clean up conflicting files and switch to output branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif github-contribution-grid-snake.svg
           git fetch origin output
           git switch output || git switch --orphan output
           git pull origin output || true

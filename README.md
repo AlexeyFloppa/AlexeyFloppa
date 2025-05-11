@@ -1,9 +1,8 @@
 <!-- 🌟 HERO SECTION -->
 <h1 align="center">Hi, I'm <strong>Alexey Floppa</strong> 😼</h1>
 
-<p align="center">
-  <img src="ui/floppa_banner.png" width="100%"/>
-</p>
+<img src="ui/floppa_banner.png"/>
+
 
 <p align="center" style="font-size: 18px;">
   Builder. Automator. Floppa at heart.
@@ -57,31 +56,21 @@ I approach projects like long-term investments: build once, build right, and kee
 
 <!-- 🚀 FEATURED PROJECT -->
 <h2 align="center">🚀 Featured Project</h2>
-  <h3 style="margin-top: 0;">🧩 <strong>Better.io</strong></h3>
-  <p style="font-size: 16px;">
-    Better.io isn’t just another app. It’s quiet structure. It’s control without pressure. It’s your system, your way.
-    Designed for people who value their time and don’t want distractions in the way.
-  </p>
-  <ul style="font-size: 16px;">
-    <li>📆 Calendar and habits with calm reminders</li>
-    <li>📈 Task stats and AI analysis — without the noise</li>
-    <li>🎨 Fully customizable, so it feels like yours</li>
-    <li>📦 Local-first and fast. No cloud dependency</li>
-  </ul>
+<h3 align="center">🌱 Better.io 🌱</h2>
 
-  <div style="min-width: 300px; flex:2;">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=AlexeyFloppa&repo=Better.io&theme=tokyonight&hide_border=true">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexeyFloppa&repo=Better.io&hide_border=true" width="300" />
-    </picture>
-  </div>
-</div>
+<p align="center" style="font-size: 16px;">
+  Better.io isn’t just another app. It’s quiet structure. It’s control without pressure. It’s your system, your way. Designed for people who value their time and don’t want distractions in the way.<br/>
+  📆 Calendar and habits with calm reminders<br/>
+  📈 Task stats and AI analysis — without the noise<br/>
+  🎨 Fully customizable, so it feels like yours<br/>
+  📦 Local-first and fast. No cloud dependency
+</p>
 
 ---
 
 <!-- 📜 TIMELINE -->
 <h2 align="center">📜 Developer Timeline</h2>
-<p align="center" style="max-width: 800px; margin: auto; font-size: 16px;">
+<p align="center" style="padding-left:30px;padding-right:30px">
   My journey in coding began in 2020, when I was 10 years old and started with C#. I was just exploring, curious about how programs work. In 2021, I switched to Python — the simplicity and logic of it made it a great next step. That same year, I got into frontend web development with HTML, CSS, and JavaScript.
   <br/><br/>
   In 2022, I circled back to C#, this time through Unity. I was experimenting with building games and learning how to create interactive projects. From 2023 to 2024, I moved between all the tools I had learned, mixing them as needed. I was less focused on learning new languages, and more focused on improving how I build.
@@ -95,26 +84,39 @@ I approach projects like long-term investments: build once, build right, and kee
 
 <!-- 📊 STATS -->
 <h2 align="center">📊 GitHub Stats</h2>
-<div align="center">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 20px;">
+
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AlexeyFloppa&show_icons=true&theme=tokyonight&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api?username=AlexeyFloppa&show_icons=true&hide_border=true" height="125"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?show_icons=true&theme=tokyonight&hide_border=true&username=AlexeyFloppa">
+    <img src="https://github-readme-stats.vercel.app/api?show_icons=true&hide_border=true&username=AlexeyFloppa" height="125" />
   </picture>
+
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexeyFloppa&layout=compact&theme=tokyonight&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexeyFloppa&layout=compact&hide_border=true" height="125" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?theme=tokyonight&hide_border=true&user=AlexeyFloppa">
+    <img src="https://streak-stats.demolab.com?hide_border=true&user=AlexeyFloppa" height="125" />
   </picture>
+
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AlexeyFloppa&theme=tokyonight&hide_border=true">
-    <img src="https://streak-stats.demolab.com?user=AlexeyFloppa&hide_border=true" height="125" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?layout=compact&theme=tokyonight&hide_border=true&username=AlexeyFloppa">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?layout=compact&hide_border=true&username=AlexeyFloppa" height="125" />
   </picture>
+
 </div>
 
 <!-- 🐍 SNAKE -->
-<p align="center">
+<p align="center" style="padding-left:20px;padding-right:20px">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/github-contribution-grid-snake-dark.svg">
     <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
+  </picture>
+</p>
+
+<!-- 📊 STATS -->
+<h2 align="center">📊 LeetCode Stats</h2>
+<p align="center" style="padding-left:30px;padding-right:30px">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/alexey_floppa?font=Roboto">
+  <img src="https://leetcard.jacoblin.cool/alexey_floppa?theme=light&font=Roboto"/>
   </picture>
 </p>
 
@@ -122,11 +124,12 @@ I approach projects like long-term investments: build once, build right, and kee
 
 <!-- 🧰 TOOLS -->
 <h2 align="center">🧰 Toolbox</h2>
-<p align="center">
+<p align="center" style="padding-left:30px;padding-right:30px">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>  
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/> 
 </p>
@@ -135,12 +138,13 @@ I approach projects like long-term investments: build once, build right, and kee
 
 <!-- 📬 CONTACT -->
 <h2 align="center">📬 Connect With Me</h2>
-<p align="center">
+<p align="center" style="padding-left:30px;padding-right:30px">
   <a href="https://discordapp.com/users/alexeyfloopa"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
-  <a href="mailto:alexeydevelopacc@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://leetcode.com/alexey_floppa"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
   <a href="https://github.com/AlexeyFloppa"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://youtube.com/@alexeyfloppa"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
   <a href="https://instagram.com/alexeyfloppa"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://youtube.com/@alexeyfloppa"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+  <a href="mailto:alexeydevelopacc@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 ---
