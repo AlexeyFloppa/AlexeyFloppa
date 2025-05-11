@@ -2,7 +2,7 @@ name: Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
+    - cron: "0 */12 * * *"  # Every 12 hours
   workflow_dispatch:
 
 permissions:
@@ -16,6 +16,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Clean up old files and switch to output branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin output
+          git switch output || git switch --orphan output
+          git pull origin output || true
+          rm -f github-contribution-grid-snake*.svg github-contribution-grid-snake*.gif
+          rm -rf dist/
+
       - name: Generate Snake animation
         uses: Platane/snk@v3
         id: snake-gif
@@ -26,18 +36,8 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif
 
-      - name: Clean up conflicting files and switch to output branch
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          rm -f github-contribution-grid-snake-dark.svg github-contribution-grid-snake.gif github-contribution-grid-snake.svg
-          git fetch origin output
-          git switch output || git switch --orphan output
-          git pull origin output || true
-
       - name: Copy snake files into output branch
         run: |
-          mkdir -p dist
           cp -r dist/* .
 
       - name: Commit and push changes
