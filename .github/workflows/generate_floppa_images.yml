@@ -1,4 +1,4 @@
-name: Floppa
+name: Floppa Daily Images
 
 on:
   schedule:
@@ -20,8 +20,8 @@ jobs:
 
       - run: pip install pillow
 
-      - name: 🧠 Generate Floppas
-        run: python scripts/generate_floppas.py
+      - name: 🧠 Generate Daily Floppa Images
+        run: python scripts/generate_floppa_images.py
 
       - uses: actions/checkout@v4
         with:
@@ -35,5 +35,5 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
           git add .
-          git commit -m "🐱 Daily Floppas Update" || echo "No changes"
+          git commit -m "🐱 Daily Floppa Images Update" || echo "No changes"
           git push

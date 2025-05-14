@@ -13,17 +13,23 @@
 <!-- 📸 DAILY FLOPPA -->
 <h2 align="center">📸 Daily Floppa</h2>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/daily-floppa.png" width="270"/>
+  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/daily-floppa-image.png" width="270"/>
 </p>
 
 <h3 align="center">🎲 Bonus Floppas</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/random-1.png" width="60"/>
-  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/random-2.png" width="60"/>
-  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/random-3.png" width="60"/>
-  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/random-4.png" width="60"/>
-  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/random-5.png" width="60"/>
+  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/daily-floppa-image-1.png" width="60"/>
+  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/daily-floppa-image-2.png" width="60"/>
+  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/daily-floppa-image-3.png" width="60"/>
+  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/daily-floppa-image-4.png" width="60"/>
+  <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/daily-floppa-image-5.png" width="60"/>
 </p>
+
+---
+<!-- 💬 DAILY FLOPPA QUOTE-->
+
+<h2 align="center">💬 Daily Floppa Quote</h2>
+<img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/daily-floppa-quote.png" width="100%"/>
 
 ---
 
@@ -53,6 +59,7 @@ I approach projects like long-term investments: build once, build right, and kee
 🌙 Most of my best code comes from late, quiet hours</p>
 
 ---
+
 
 <!-- 🚀 FEATURED PROJECT -->
 <h2 align="center">🚀 Featured Project</h2>
