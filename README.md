@@ -113,8 +113,8 @@ I approach projects like long-term investments: build once, build right, and kee
 <!-- 🐍 SNAKE -->
 <p align="center" style="padding-left:20px;padding-right:20px">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/github-contribution-grid-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/AlexeyFloppa/AlexeyFloppa/output/snake.svg" alt="Snake animation" width="100%" />
   </picture>
 </p>
 
