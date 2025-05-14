@@ -6,7 +6,7 @@ with open("floppa_quotes/quotes.json", "r") as f:
     quotes = json.load(f)
 
 quote = random.choice(quotes)
-author = "– AlexeyFloppa"
+author = "– AlexeyFloppa -"
 
 # --- Load Random Layout Images ---
 bg_folder = "floppa_quotes/bg_layouts"
@@ -18,6 +18,7 @@ floppa_file = random.choice(os.listdir(floppa_folder))
 # Open images
 background = Image.open(os.path.join(bg_folder, bg_file)).convert("RGB")
 floppa_overlay = Image.open(os.path.join(floppa_folder, floppa_file)).convert("RGBA")
+font_path = "floppa_quotes/Lora-Font.ttf"
 
 # Composite base + Floppa overlay
 background.paste(floppa_overlay, (0, 0), floppa_overlay)
@@ -36,8 +37,8 @@ author_color = (160, 160, 160)
 
 # Load fonts
 try:
-    font = ImageFont.truetype("arial.ttf", 28)
-    author_font = ImageFont.truetype("arial.ttf", 20)
+    font = ImageFont.truetype(font_path, 28)
+    author_font = ImageFont.truetype(font_path, 20)
 except:
     font = ImageFont.load_default()
     author_font = ImageFont.load_default()
